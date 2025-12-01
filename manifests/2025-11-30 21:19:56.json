@@ -1,0 +1,27 @@
+{
+  "builds": [
+    {
+      "name": "ubuntu",
+      "builder_type": "proxmox-iso",
+      "files": null,
+      "artifact_id": "105",
+      "packer_run_uuid": "d233dbd3-0551-cfcd-346d-c667e07cd7f5",
+      "custom_data": {
+        "ansible_username": "ansible",
+        "build_date": "30-11-2025 21:19 UTC",
+        "build_username": "deploy",
+        "build_version": "0.1",
+        "common_data_source": "http",
+        "vm_bios": "ovmf",
+        "vm_cloudinit": "true",
+        "vm_cpu_count": "1",
+        "vm_cpu_sockets": "1",
+        "vm_disk_size": "32G",
+        "vm_mem_size": "2048",
+        "vm_network_card_model": "virtio",
+        "vm_os_type": "l26"
+      }
+    }
+  ],
+  "last_run_uuid": "d233dbd3-0551-cfcd-346d-c667e07cd7f5"
+}
